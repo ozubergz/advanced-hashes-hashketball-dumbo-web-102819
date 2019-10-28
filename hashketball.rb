@@ -119,17 +119,17 @@ end
 
 
 def num_points_scored(name)
-  data = game_hash
-  points = 0
-  data.each do |k, v|
-    stats = v[:players]
-    stats.each do |stat|
-      if stat[:player_name] === name
-        points = stat[:points]
-      end
-    end
-  end
-  points
+  # data = game_hash
+  # points = 0
+  # data.each do |k, v|
+  #   stats = v[:players]
+  #   stats.each do |stat|
+  #     if stat[:player_name] === name
+  #       points = stat[:points]
+  #     end
+  #   end
+  # end
+  # points
 end
 
 
